@@ -4,7 +4,8 @@ const app = express();
 app.get('/', (req, res) => {
 	res.send({
 		developer: 'hemant',
-		age: 20
+		age: 20,
+		status: 'ready'
 	})
 })
 
