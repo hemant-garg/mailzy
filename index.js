@@ -23,6 +23,9 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
+app.get("/", (req, res) => {
+	res.send("Hey there");
+});
 require("./routes/googleAuth")(app);
 require("./routes/billingRoutes")(app);
 
