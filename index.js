@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 const keys = require("./config/keys");
 const cookieSession = require("cookie-session");
 const passport = require("passport");
-const path = require("path");
 require("./models/Users");
 require("./services/passport");
 
@@ -28,11 +27,11 @@ require("./routes/googleAuth")(app);
 require("./routes/billingRoutes")(app);
 
 if (process.env.NODE_ENV === "production") {
-	// Serve any static files
-	app.use(express.static(path.join(__dirname, "client/build")));
-	// Handle React routing, return all requests to React app
-	app.get("*", function(req, res) {
-		res.sendFile(path.join(__dirname, "client/build", "index.html"));
+	app.use(express.static("client/build"));
+
+	const path = require("path");
+	app.get("*", (req, res) => {
+		res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
 	});
 }
 
