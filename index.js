@@ -22,14 +22,6 @@ app.use(
 );
 app.use(passport.initialize());
 app.use(passport.session());
-
-require("./routes/googleAuth")(app);
-require("./routes/billingRoutes")(app);
-
-app.get("/api/check", (req, res) => {
-	res.send({ working: "true" });
-});
-
 if (process.env.NODE_ENV === "production") {
 	app.use(express.static("client/build"));
 
@@ -38,6 +30,12 @@ if (process.env.NODE_ENV === "production") {
 		res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
 	});
 }
+require("./routes/googleAuth")(app);
+require("./routes/billingRoutes")(app);
+
+app.get("/api/check", (req, res) => {
+	res.send({ working: "true" });
+});
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {

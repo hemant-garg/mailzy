@@ -7,7 +7,7 @@ class Landing extends Component {
 				<h1 className="display-3">Mailzy!</h1>
 				<p className="lead">Collect Feedback from your Users</p>
 				<a href="/api/check">
-					<button className="btn btn-info">Check</button>
+					<button className="btn">Check</button>
 				</a>
 			</div>
 		);
