@@ -26,6 +26,10 @@ app.use(passport.session());
 require("./routes/googleAuth")(app);
 require("./routes/billingRoutes")(app);
 
+app.get("/api/check", (req, res) => {
+	res.send({ working: "true" });
+});
+
 if (process.env.NODE_ENV === "production") {
 	app.use(express.static("client/build"));
 

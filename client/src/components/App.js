@@ -11,6 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 class App extends Component {
 	componentDidMount() {
 		this.props.fetchUser();
+		this.props.checkURL();
 	}
 
 	render() {
