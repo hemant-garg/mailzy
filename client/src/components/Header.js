@@ -9,7 +9,10 @@ class Header extends Component {
       case false:
         return (
           <li className="nav-item">
-            <a href="/auth/google" className="nav-link">
+            <a
+              href="https://serene-ocean-98707.herokuapp.com/auth/google"
+              className="nav-link"
+            >
               Login with Google
             </a>
           </li>
