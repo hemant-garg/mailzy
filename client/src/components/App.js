@@ -7,7 +7,7 @@ import Landing from "./Landing";
 import Dashboard from "./Dashboard";
 import NewSurvey from "./NewSurvey";
 
-// import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
 	componentDidMount() {
