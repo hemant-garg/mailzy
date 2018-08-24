@@ -3,10 +3,11 @@ import { BrowserRouter, Route } from "react-router-dom";
 import { connect } from "react-redux";
 import * as actions from "../actions";
 import Header from "./Header";
-import Surveys from "./Surveys";
 import Landing from "./Landing";
+import Dashboard from "./Dashboard";
+import NewSurvey from "./NewSurvey";
 
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
 	componentDidMount() {
@@ -19,7 +20,8 @@ class App extends Component {
 				<div>
 					<Header />
 					<Route exact path="/" component={Landing} />
-					<Route exact path="/surveys" component={Surveys} />
+					<Route exact path="/surveys" component={Dashboard} />
+					<Route exact path="/survey/new" component={NewSurvey} />
 				</div>
 			</BrowserRouter>
 		);
