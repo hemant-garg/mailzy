@@ -5,7 +5,7 @@ import * as actions from "../actions";
 import Header from "./Header";
 import Landing from "./Landing";
 import Dashboard from "./Dashboard";
-import NewSurvey from "./NewSurvey";
+import NewSurvey from "./surveys/NewSurvey";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
