@@ -6,10 +6,10 @@ module.exports = survey => {
 
 	<div>${survey.body}</div>
 	<p>
-		<a href="${
-			keys.domainURL
-		}/api/survey/feedback/message" style="margin-right: 10px">Yes</a>
-		<a href="${keys.domainURL}/api/survey/feedback/message">No</a>
+		<a href="${keys.domainURL}/api/survey/${
+		survey.id
+	}/yes" style="margin-right: 10px">Yes</a>
+		<a href="${keys.domainURL}/api/survey/${survey.id}/no">No</a>
 	</p>
 
 	</body></html>
