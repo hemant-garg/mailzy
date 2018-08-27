@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import SurveyList from "./surveys/SurveyList";
+
 class Dashboard extends Component {
 	render() {
 		return (
 			<div>
-				<h1>Dashboard </h1>
+				<SurveyList />
 				<Link to="/survey/new">
 					<button
 						type="button"
