@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-var cors = require("cors");
+
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const keys = require("./config/keys");
@@ -16,7 +16,7 @@ mongoose.connect(
 );
 
 const app = express();
-app.use(cors());
+
 app.use(bodyParser.json());
 app.use(
 	cookieSession({
