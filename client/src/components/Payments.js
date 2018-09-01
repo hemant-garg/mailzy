@@ -13,7 +13,7 @@ class Payments extends Component {
 				name="Mailzy"
 				description="$5 for five survey credit"
 			>
-				<button className="btn btn-info">ADD CREDITS</button>
+				<button className="button-dark">ADD CREDITS</button>
 			</StripeCheckout>
 		);
 	}

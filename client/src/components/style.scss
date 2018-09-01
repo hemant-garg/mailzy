@@ -1,0 +1,148 @@
+$primary-color: #ffda79;
+$primary-color-2: #353535;
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 10px;
+}
+* > a {
+	text-decoration: none;
+	color: #fff;
+}
+body {
+	background: url("bg-pattern.png") repeat;
+	background-size: 25%;
+	font-family: "Montserrat", sans-serif;
+}
+
+///////////////////////////////
+///// GENERAL
+////////////////
+
+.button-light,
+.button-dark,
+.button-dark-2 {
+	border-radius: 10rem;
+	padding: 1.4rem 2rem;
+	border: 1px solid $primary-color;
+	font-weight: bold;
+}
+.button-dark,
+.button-dark-2 {
+	&:active,
+	&:focus {
+		outline: none;
+	}
+	color: $primary-color-2;
+	font-weight: 800;
+	cursor: pointer;
+	background-color: $primary-color;
+}
+.button-dark-2 {
+	margin-top: 5rem;
+	border-radius: 0.5rem;
+	font-size: 3rem;
+	text-transform: uppercase;
+	padding: 1.7rem 6rem;
+}
+
+////////////////////////////////
+///// NAVBAR
+//////////////////////
+
+.navbar {
+	padding: 3rem 5rem;
+	display: flex;
+	font-size: 1.5rem;
+	color: #eee;
+	text-transform: uppercase;
+	justify-content: space-between;
+	&-title {
+		font-weight: 900;
+		letter-spacing: 0.5rem;
+		font-size: 3.5rem;
+
+		& span {
+			color: $primary-color;
+		}
+	}
+	&-list {
+		display: flex;
+		list-style: none;
+		& li {
+			margin-left: 2rem;
+		}
+	}
+}
+
+////////////////////////////////
+//// LANDING
+//////////////////////
+
+.landing {
+	font-family: "Luckiest Guy", cursive;
+	text-align: center;
+	color: #fff;
+	max-width: 90rem;
+	margin: 0 auto;
+	&--title {
+		font-size: 11rem;
+		margin-top: 5rem;
+		letter-spacing: 0.7rem;
+	}
+	&--sub-title {
+		color: $primary-color;
+		font-size: 4.4rem;
+		letter-spacing: 0.4rem;
+	}
+	&--app-det {
+		font-size: 3rem;
+		margin-top: 5rem;
+		max-width: 75rem;
+		margin: 0 auto;
+		font-family: "Caveat", cursive;
+	}
+}
+
+///////////////////////////////
+/////// DASHBOARD
+//////////////////
+
+.button-add {
+	position: fixed;
+	bottom: 3rem;
+	right: 3rem;
+	padding: 2.2rem;
+	color: $primary-color-2;
+	background-color: $primary-color;
+	border-radius: 50%;
+}
+
+/////////////////////////
+//// FORM
+/////////
+
+.survey-form {
+	background-color: #fff;
+	padding: 2rem;
+	max-width: 50rem;
+	margin: 5rem auto;
+	font-size: 1.4rem;
+	color: $primary-color-2;
+	border-radius: 1rem;
+	&--group {
+		margin-bottom: 2rem;
+	}
+	&--input {
+		width: 100%;
+		outline: none;
+		padding: 1rem 1.5rem;
+		box-sizing: border-box;
+	}
+	&--buttons {
+		display: flex;
+		justify-content: space-between;
+	}
+}

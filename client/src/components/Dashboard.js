@@ -7,18 +7,8 @@ class Dashboard extends Component {
 		return (
 			<div>
 				<SurveyList />
-				<Link to="/survey/new">
-					<button
-						type="button"
-						className="rounded-circle btn btn-lg position-fixed btn-info"
-						style={{
-							bottom: "3rem",
-							right: "3rem",
-							fontSize: "1.7rem"
-						}}
-					>
-						+
-					</button>
+				<Link to="/survey/new" className="button-add">
+					<i class="fas fa-plus fa-3x" />
 				</Link>
 			</div>
 		);

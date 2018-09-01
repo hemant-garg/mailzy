@@ -6,9 +6,7 @@ import Header from "./Header";
 import Landing from "./Landing";
 import Dashboard from "./Dashboard";
 import NewSurvey from "./surveys/NewSurvey";
-
-import "bootstrap/dist/css/bootstrap.min.css";
-
+import "./style.css";
 class App extends Component {
 	componentDidMount() {
 		this.props.fetchUser();

@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px; }
+
+* > a {
+  text-decoration: none;
+  color: #fff; }
+
+body {
+  background: url("bg-pattern.png") repeat;
+  background-size: 25%;
+  font-family: "Montserrat", sans-serif; }
+
+.button-light,
+.button-dark,
+.button-dark-2 {
+  border-radius: 10rem;
+  padding: 1.4rem 2rem;
+  border: 1px solid #ffda79;
+  font-weight: bold; }
+
+.button-dark,
+.button-dark-2 {
+  color: #353535;
+  font-weight: 800;
+  cursor: pointer;
+  background-color: #ffda79; }
+  .button-dark:active, .button-dark:focus,
+  .button-dark-2:active,
+  .button-dark-2:focus {
+    outline: none; }
+
+.button-dark-2 {
+  margin-top: 5rem;
+  border-radius: 0.5rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding: 1.7rem 6rem; }
+
+.navbar {
+  padding: 3rem 5rem;
+  display: flex;
+  font-size: 1.5rem;
+  color: #eee;
+  text-transform: uppercase;
+  justify-content: space-between; }
+  .navbar-title {
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+    font-size: 3.5rem; }
+    .navbar-title span {
+      color: #ffda79; }
+  .navbar-list {
+    display: flex;
+    list-style: none; }
+    .navbar-list li {
+      margin-left: 2rem; }
+
+.landing {
+  font-family: "Luckiest Guy", cursive;
+  text-align: center;
+  color: #fff;
+  max-width: 90rem;
+  margin: 0 auto; }
+  .landing--title {
+    font-size: 11rem;
+    margin-top: 5rem;
+    letter-spacing: 0.7rem; }
+  .landing--sub-title {
+    color: #ffda79;
+    font-size: 4.4rem;
+    letter-spacing: 0.4rem; }
+  .landing--app-det {
+    font-size: 3rem;
+    margin-top: 5rem;
+    max-width: 75rem;
+    margin: 0 auto;
+    font-family: "Caveat", cursive; }
+
+.button-add {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  padding: 2.2rem;
+  color: #353535;
+  background-color: #ffda79;
+  border-radius: 50%; }
+
+.survey-form {
+  background-color: #fff;
+  padding: 2rem;
+  max-width: 50rem;
+  margin: 5rem auto;
+  font-size: 1.4rem;
+  color: #353535;
+  border-radius: 1rem; }
+  .survey-form--group {
+    margin-bottom: 2rem; }
+  .survey-form--input {
+    width: 100%;
+    outline: none;
+    padding: 1rem 1.5rem;
+    box-sizing: border-box;
+    resize: none; }
+  .survey-form--buttons {
+    display: flex;
+    justify-content: space-between; }
