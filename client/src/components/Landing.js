@@ -1,7 +1,11 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
 
 class Landing extends Component {
 	render() {
+		if (this.props.auth !== false) {
+			this.props.history.push("/surveys");
+		}
 		return (
 			<section className="landing">
 				<h1 className="landing--title">Mailzy!</h1>
@@ -20,5 +24,8 @@ class Landing extends Component {
 		);
 	}
 }
+function mapStateToProps({ auth }) {
+	return { auth };
+}
 
-export default Landing;
+export default connect(mapStateToProps)(Landing);

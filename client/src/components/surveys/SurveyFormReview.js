@@ -13,25 +13,31 @@ const SurveyFormReview = ({
 	const renderReview = formFields.map(({ label, name }) => {
 		return (
 			<div key={name}>
-				<label>{label}</label>
-				<div>{formValues[name]}</div>
+				<label className="surveyFormReview--label">{label}</label> :-
+				<div className="surveyFormReview--values">
+					{formValues[name]}
+				</div>
 			</div>
 		);
 	});
 
 	return (
 		<div>
-			<h4>Please Confirm your entries</h4>
-			{renderReview}
-			<button className="btn btn-danger" onClick={onClickBack}>
-				Back
-			</button>
-			<button
-				className="btn btn-success"
-				onClick={() => submitSurvey(formValues, history)}
-			>
-				Send Survey
-			</button>
+			<div className="primary-title">Please Confirm your entries</div>
+			<div className="surveyFormReview">
+				{renderReview}
+				<div className="survey-form--buttons">
+					<button className="button-dark-4" onClick={onClickBack}>
+						Back
+					</button>
+					<button
+						className="button-dark-3"
+						onClick={() => submitSurvey(formValues, history)}
+					>
+						Send Survey
+					</button>
+				</div>
+			</div>
 		</div>
 	);
 };

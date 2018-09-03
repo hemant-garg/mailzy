@@ -21,23 +21,28 @@ class SurveyForm extends Component {
 	}
 	render() {
 		return (
-			<div className="survey-form">
-				<form
-					onSubmit={this.props.handleSubmit(
-						this.props.onSurveySubmit
-					)}
-				>
-					{this.renderFields()}
-					<div className="survey-form--buttons">
-						<Link to="/surveys">
-							<button className="button-dark">Cancel</button>
-						</Link>
-						<button className="button-dark" type="submit">
-							Next
-						</button>
-					</div>
-				</form>
-			</div>
+			<section>
+				<div className="primary-title">Create New Survey</div>
+				<div className="survey-form">
+					<form
+						onSubmit={this.props.handleSubmit(
+							this.props.onSurveySubmit
+						)}
+					>
+						{this.renderFields()}
+						<div className="survey-form--buttons">
+							<Link to="/surveys">
+								<button className="button-dark-4">
+									Cancel
+								</button>
+							</Link>
+							<button className="button-dark-3" type="submit">
+								Next
+							</button>
+						</div>
+					</form>
+				</div>
+			</section>
 		);
 	}
 }
