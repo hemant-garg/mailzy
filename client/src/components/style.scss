@@ -31,7 +31,16 @@ body {
 }
 .text-danger {
 	color: #e15f41;
+	font-size: 90%;
 }
+
+.input-error{
+	box-shadow: inset 0px 1px 5px #e15f41 !important;
+}
+.input-success{
+	box-shadow: inset 0px 1px 5px #27ae60 !important;
+}
+
 .button-light,
 .button-dark,
 .button-dark-2,
@@ -155,11 +164,18 @@ body {
 	&--group {
 		margin-bottom: 2rem;
 	}
+	&--label{
+		font-weight: bold;
+		font-size: 90%;
+		color: rgba(0,0,0, .6);
+	}
 	&--input {
 		width: 100%;
 		padding: 1rem 1.5rem;
 		box-sizing: border-box;
-
+		margin-top: .5rem;
+		border: none;
+		box-shadow: inset 0px 1px 5px rgba(0,0,0,.2);
 		&::placeholder {
 			font-family: "Montserrat", sans-serif;
 		}
@@ -215,7 +231,9 @@ body {
 		display: flex;
 		justify-content: space-between;
 	}
-
+	&--left{
+		width: 78%;
+	}
 	&--title {
 		font-size: 2.4rem;
 		margin-bottom: 2rem;
