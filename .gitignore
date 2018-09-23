@@ -1,3 +1,5 @@
 node_modules/
 package-lock.json
 dev.js
+client/package-lock.json
+sendgrid_webhook.js
