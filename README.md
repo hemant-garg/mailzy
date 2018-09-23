@@ -9,14 +9,21 @@ If you are running a startup or any kind of business and you want to collect som
 ## Major Features of this web app: 
 
  > Google authentication for login purpose.
+
  > Payment Gateway using Stripe.
+ 
  > Send mass emails to people using sendgrid.
+ 
  > Collect feedback from email recipients.
+ 
  > Store all survey data using mongoose.
+ 
  > Show feedback and surveys to users on Dashboard Page.
 
-For some reasons, I cant be able to deploy this website, so sorry for that.
+**For some reasons, I cant be able to deploy this website, so sorry for that.**
+
 Here i am attaching some screenshots of my website. 
 
 1) Homepage
+
 <img src='./media/Screenshot (290).png'>
