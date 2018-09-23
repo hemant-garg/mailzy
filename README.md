@@ -2,7 +2,7 @@
 
 **The app that can be used to send mass emails to a big list of users for the purpose of collecting feedback.**
 
-Tech Stack - `MERN ( Mongodb Expressjs Reactjs Nodejs)`
+Tech Stack - `**MERN** ( Mongodb Expressjs Reactjs Nodejs)`
 
 If you are running a startup or any kind of business and you want to collect some feedback from your users to expand or improve your business then you can use this web app.
 
@@ -62,6 +62,6 @@ Here i am attaching some screenshots of my website.
 
 ..
 
-7) On click `Send survey` button, All data store to database and survey is sent to all recipients simultaneously. and you redirected to dashboard page automatically.
+7) On click `Send survey` button, All data will store to our database and survey is sent to all recipients simultaneously. and you are redirected to the dashboard page automatically.
 
 <img src='./media/Screenshot (292).png'>
