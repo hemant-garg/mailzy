@@ -69,5 +69,6 @@ Here i am attaching some screenshots of my website.
 ..
 ..
 
-**If you have any suggestions for me or just want to contact me for any reason**
+**If you have any suggestions for me or just want to contact me for any reason. Ping me anytime**
+
 [Linkedin](https://www.linkedin.com/in/hemantgarg6/) [Github](https://github.com/hemant-garg/) [Facebook](https://www.facebook.com/hemantgarg6)
