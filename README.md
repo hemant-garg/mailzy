@@ -65,3 +65,9 @@ Here i am attaching some screenshots of my website.
 7) On click `Send survey` button, All data will store to our database and survey is sent to all recipients simultaneously. and you are redirected to the dashboard page automatically.
 
 <img src='./media/Screenshot (292).png'>
+
+..
+..
+
+**If you have any suggestions for me or just want to contact me for any reason**
+[Linkedin](https://www.linkedin.com/in/hemantgarg6/) [Github](https://github.com/hemant-garg/) [Facebook](https://www.facebook.com/hemantgarg6)
