@@ -22,38 +22,47 @@ If you are running a startup or any kind of business and you want to collect som
 
 **For some reasons, I cant be able to deploy this website, so sorry for that.**
 
+.
+.
+
 Here i am attaching some screenshots of my website. 
 
 1) Homepage
 
 <img src='./media/Screenshot (290).png'>
-
-
-
+.
+.
+.
 2) On click `Login with google` button, You have to select your gmail account
 
 <img src='./media/Screenshot (291).png'>
-
-
-
+.
+.
+.
 3) After login you are redirected to your `dashboard`.
 
 <img src='./media/Screenshot (292).png'>
-
+.
+.
+.
 4) On click `Add credits` , A payment gateway will be open using which you can add credits to your account.
 
 <img src='./media/Screenshot (293).png'>
-
-
+.
+.
+.
 5) On click `+` button in right bottom side of your dashboard page. You can create a survey.
 
 <img src='./media/Screenshot (295).png'>
-
-
-6) On click `next` button, You will get a last chance to recheck everything before sending emails.
+.
+.
+.
+6) On click `Next` button, You will get a last chance to recheck everything before sending emails.
 
 <img src='./media/Screenshot (296).png'>
-
-7) On click `send` button, All data store to database and survey is sent to all recipients simultaneously. and you redirected to dashboard page automatically.
+.
+.
+.
+7) On click `Send survey` button, All data store to database and survey is sent to all recipients simultaneously. and you redirected to dashboard page automatically.
 
 <img src='./media/Screenshot (292).png'>
